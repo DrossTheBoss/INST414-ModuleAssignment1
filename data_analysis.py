@@ -16,3 +16,9 @@ plt.xlabel('Date')
 plt.ylabel('Closing Price (USD)')
 plt.grid(True)
 plt.show()
+
+netflix_data_sorted = netflix_data.sort_values(by='High', ascending=False)
+
+#Displays the top ten dates in the data set to get a better idea of the best 
+#best days for netflix and look for patterns
+print(netflix_data_sorted.head(10))
