@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the dataset into a pandas DataFrame
-netflix_data = pd.read_csv('netflix_stock_data_2023_24.csv')
+netflix_data = pd.read_csv('Netflix_data.csv')
 
 # Remove rows with missing dates
 netflix_data = netflix_data.dropna(subset=['Date'])
